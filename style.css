@@ -6,13 +6,24 @@
 .navbar-brand{
 	font-family: 'Merienda One', cursive;
 }
+#orange{
+	color:orange;
+}
+#blue{
+	color:rgb(0, 132, 255);
+}
+#green{
+	color:rgb(62, 235, 62);
+}
 .body-header{
 	background-image:url("images/make-in-india-campaign-logo3.jpg");
 	height:90vh;
 	width:100%;
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding-top:12%;
+	padding-top:13%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top:40px;
 }
 
 #heading{
@@ -21,22 +32,65 @@
 	letter-spacing:0.1rem;
 	font-weight:700; /*means bold*/
 	color:white;
-	text-shadow: 0px 4px 3px rgba(245, 8, 8, 0.4),
+	text-shadow: 0px 4px 3px rgba(8, 63, 245, 0.4),
 				 0px 8px 13px rgba(216, 215, 215, 0.1),
 				 0px 18px 23px rgba(7, 7, 7, 0.1);
 }
-h1{
-	background-color:rgba(26, 25, 25, 0.6);
-	width:50%;
-	margin:auto;
-	padding:30px;
+.section-heading h1{
+	color:rgb(21, 52, 121);
+	margin-bottom:50px;
+	margin-top:60px;
+	font-weight: 700;
+	font-family: 'Righteous', cursive;
+}
+.about-heading h1{
+	color:rgb(21, 52, 121);
+	margin-bottom:40px;
+	margin-top:40px;
+	font-weight: 700;
+	font-family: 'Righteous', cursive;
+}
+.about-para{
+	margin: auto;
+}
+.about-img{
+	width:400px;
+	height:400px;
+}
+.product-sectors{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+.card{
+	width: 20rem;
+	margin-bottom:30px;
+}
+.card-img-top{
+	height:200px;
+}
+footer{
+	background:#e7e7e7;
+	height:120px;
+	color:rgb(21, 52, 121);
+	font-weight: bold;
+	text-align: center;
+	padding-top:30px;
+	margin-top:30px;
+	border-top:7px solid rgb(21, 52, 121);
 }
 
+.fa-heart{
+	color:red;
+}
 @media only screen and (max-width: 700px) {
 	.body-header {
 	  height:40vh;
 	}
 	#heading{
 		font-size:2.2rem;
+	}
+	.about-para{
+		margin-top:30px;
 	}
   }

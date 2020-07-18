@@ -6,37 +6,91 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <!--Bootstrap CDN CSS link-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-            <a class="navbar-brand" href="#">Made In India</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav m-auto">
-                <li class="nav-item active">
-                  <a class="nav-link mx-3" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link mx-3" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-3" href="#">Products</a>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+              <div class="container">
+              <a class="navbar-brand" href="#"><span id="orange">Made</span> <span id="blue">In</span> <span id="green">India</span></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link mx-3" href="#">Home</a>
                   </li>
-              </ul>
+                  <li class="nav-item">
+                    <a class="nav-link mx-3" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link mx-3" href="#products">Products</a>
+                    </li>
+                </ul>
+              </div>
+              </div>
+            </nav>
+            <div class="body-header text-center">
+              <h1 id="heading">Made In India</h1>
             </div>
-            </div>
-          </nav>
-          <div class="body-header text-center">
-            <h1 id="heading">Made In India</h1>
-          </div>
         </header>
+
+        <div class="container">
+          <section id="about">
+            <div class="about-heading">
+              <h1 class="text-center">About</h1>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-md-5 text-center">
+                <img class="img-fluid about-img" src="images/about.jpg" alt="">
+              </div>
+              <div class="col-md-6 text-center">
+                <p class="about-para">Make in India was launched by the Government of India on 25 September 2014 to encourage companies to manufacture their products in India and incentivize with dedicated investments into manufacturing.The policy approach was to create a conducive environment for investments, develop modern and efficient infrastructure, and open up new sectors for foreign capital. The initiative targeted 25 economic sectors for job creation and skill enhancement, and aimed "to transform India into a global design and manufacturing hub"</p>
+              </div>
+            </div>
+          </section>
+
+          <section id="products">
+            <div class="section-heading">
+              <h1 class="text-center">Products made in India</h1>
+            </div>
+            <div class="product-sectors">
+              <div class="card">
+                <img class="card-img-top" src="images/food_and_drinks.jpg" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">Food and Beverages</h5>
+                  <a href="#" class="btn btn-dark">View All <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="images/electronics.jpg" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">Electronics</h5>
+                  <a href="#" class="btn btn-dark">View All <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card" >
+                <img class="card-img-top" src="images/apps.png" alt="Card image">
+                <div class="card-body">
+                  <h5 class="card-title">Mobile Applications</h5>
+                  <a href="#" class="btn btn-dark">View All <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+
+      <footer>
+        <div class="container">
+          <p>Copyright &copy; 2015, All Rights Reserved</p>
+          <p>MADE WITH <i class="fas fa-heart"></i> IN INDIA</p>
+        </div>
+      </footer>
 
         <!--Bootstrap CDN JS link-->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

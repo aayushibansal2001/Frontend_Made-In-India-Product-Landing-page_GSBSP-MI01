@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navbar-brand{
+	font-family: 'Merienda One', cursive;
+}
+#orange{
+	color:orange;
+}
+#blue{
+	color:rgb(0, 132, 255);
+}
+#green{
+	color:rgb(62, 235, 62);
+}
+.section-heading p{
+	color:rgb(236, 148, 15);
+	margin-bottom:40px;
+	margin-top:80px;
+	font-weight: 700;
+    font-family: 'Righteous', cursive;
+    font-size: 2.8rem;
+}
+.tab-content{
+    background-color: #FFEFD5;
+}
+.nav-pills > a.active {
+    background-color: #ff0000!important;
+}
+.nav-pills > a{
+    color:white;
+    font-size: 1.5rem;
+}
+.tab-content img{
+    width:250px;
+    height:250px;
+}
+.content{
+    padding:20px;
+}

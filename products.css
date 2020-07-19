@@ -17,7 +17,7 @@
 }
 .section-heading p{
 	color:rgb(236, 148, 15);
-	margin-bottom:40px;
+	margin-bottom:30px;
 	margin-top:80px;
 	font-weight: 700;
     font-family: 'Righteous', cursive;
@@ -39,4 +39,25 @@
 }
 .content{
     padding:20px;
+
 }
+.companies{
+    display:flex;
+    justify-content:center;
+}
+.companies h2{
+    margin:0 25px;
+}
+
+.companies ul li{
+    list-style-type:none;
+}
+
+@media only screen and (max-width: 700px) {
+	.companies{
+        display:block;
+    }
+    .companies ul{
+        margin-bottom: 30px;
+    }
+  }
